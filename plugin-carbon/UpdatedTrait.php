@@ -1,10 +1,10 @@
-<?php namespace Atomino\Molecules\EntityPlugin\Updated;
+<?php namespace Atomino\Carbon\Plugins\Updated;
 
-use Atomino\Entity\Attributes\EventHandler;
-use Atomino\Entity\Entity;
+use Atomino\Carbon\Attributes\EventHandler;
+use Atomino\Carbon\Entity;
 
 /**
- * @method static \Atomino\Entity\Model model()
+ * @method static \Atomino\Carbon\Model model()
  */
 trait UpdatedTrait{
 	#[EventHandler(Entity::EVENT_BEFORE_INSERT, Entity::EVENT_BEFORE_UPDATE)]

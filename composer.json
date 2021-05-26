@@ -1,5 +1,5 @@
 {
-    "name": "atomino/plugin-updated",
+    "name": "atomino/bundle-updated",
     "authors": [
         {
             "name": "laborci",
@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Atomino\\Molecules\\EntityPlugin\\Updated\\": "src/"
+            "Atomino\\Carbon\\Plugins\\Updated\\": "plugin-carbon/"
         }
     }
 }
